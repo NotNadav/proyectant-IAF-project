@@ -1,0 +1,71 @@
+.his-indicator {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-circle {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.needle {
+  position: absolute;
+  top: 5px;
+  width: 5px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 5px;
+  transform-origin: 50% 100%;
+}
+
+.inner-circle {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.degree {
+  position: absolute;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.degree-0 {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.degree-90 {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.degree-180 {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.degree-270 {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}

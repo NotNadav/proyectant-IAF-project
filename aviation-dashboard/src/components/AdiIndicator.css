@@ -1,0 +1,23 @@
+/* src/components/AdiIndicator.css */
+.adi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .adi-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .adi-value {
+    font-weight: bold;
+  }
+  
