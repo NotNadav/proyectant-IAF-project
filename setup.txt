@@ -1,0 +1,13 @@
+כדי להפעיל את האתר
+
+go to server directory
+- "node server.js"
+
+go to react app directory
+-"npm start"
+
+i used MongoDB compass as database software.
+name of the db is test, name of collection is flightsdata.
+
+
+i couldnt upload the node modules into the github repo, so u need to do "npm install" so it will install all the node modules listed in the 2 package.json files (in order to run the website and the backend).
