@@ -11,3 +11,7 @@ name of the db is test, name of collection is flightsdata.
 
 
 i couldnt upload the node modules into the github repo, so u need to do "npm install" so it will install all the node modules listed in the 2 package.json files (in order to run the website and the backend).
+
+if u want to install the node modules, use "cd" to access each folder that requires it (root, aviation-dashboard, server). 
+
+ובלי קשר, הרגשתי שהמשימה הזאת עזרה לי מאוד להבין נושאים שלא ידעתי קודם בנושא של שרתים, חיבור לבסיס נתונים וריאקט.
